@@ -1,0 +1,4 @@
+.\src\ALU.v
+.\src\i8058.v
+.\src\i8058_IDec.v
+.\src\TestBench\i8058_TB.v

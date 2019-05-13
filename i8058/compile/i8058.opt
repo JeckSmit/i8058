@@ -1,0 +1,1 @@
+ -u "C:\Aldec\Active-HDL 9.1\bin/systf.dll" -v2k5  "c:\My_Designs\8058\i8058\src\ALU.v" -v2k5  "c:\My_Designs\8058\i8058\src\i8058.v" -v2k5  "c:\My_Designs\8058\i8058\src\i8058_IDec.v" -v2k5  "c:\My_Designs\8058\i8058\src\TestBench\i8058_TB.v"  -cs  -g 5  -r -li "c:\My_Designs\8058\i8058\compile\i8058.epr" -p "c:\My_Designs\8058\i8058" 

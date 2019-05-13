@@ -1,0 +1,12 @@
+[Version]
+Version=9.1
+[Designs]
+i8058=.\i8058\i8058.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+i8058=1

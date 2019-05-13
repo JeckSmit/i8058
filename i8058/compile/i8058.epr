@@ -1,0 +1,4 @@
+"./src/ALU.v"	1
+"./src/TestBench/i8058_TB.v"	1
+"./src/i8058_IDec.v"	1
+"./src/i8058.v"	1

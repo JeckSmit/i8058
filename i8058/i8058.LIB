@@ -1,0 +1,53 @@
+timestamp=1557747480690
+
+[$root]
+A/$root=22|""|0|1*0
+BinI32/$root=3*0
+Version=9.1.2353.4205  (Windows)|0000000c789cd3cd51c8b43030b550d0f537020012fa02c6
+
+[P16C5x]
+A/P16C5x=22|./src/i8058.v|103|1*9899
+BinI32/P16C5x=3*5791
+P/~emb=2058,3014,5762,6784
+R=./src/i8058.v|103
+Version=9.1.2353.4205  (Windows)|0000000c789cd3cd51c8b43030b550d0f537020012fa02c6
+
+[P16C5x_ALU]
+A/P16C5x_ALU=22|./src/ALU.v|77|1*390
+BinI32/P16C5x_ALU=3*139
+P/~emb=490,952,2368,2673
+R=./src/ALU.v|77
+Version=9.1.2353.4205  (Windows)|0000000c789cd3cd51c8b43030b550d0f537020012fa02c6
+
+[P16C5x_IDec]
+A/P16C5x_IDec=22|./src/i8058_IDec.v|198|1*32888
+BinI32/P16C5x_IDec=3*18265
+P/~emb=353,1499,3232,3497
+R=./src/i8058_IDec.v|198
+Version=9.1.2353.4205  (Windows)|0000000c789cd3cd51c8b43030b550d0f537020012fa02c6
+
+[tb_i8058]
+A/tb_i8058=22|./src/TestBench/i8058_TB.v|68|1*37889
+BinI32/tb_i8058=3*24113
+P/~emb=111,1399,2866,3527
+R=./src/TestBench/i8058_TB.v|68
+Version=9.1.2353.4205  (Windows)|0000000c789cd3cd51c8b43030b550d0f537020012fa02c6
+
+[~A]
+LastVerilogToplevel=tb_i8058
+ModifyID=31
+Version=73
+c:/My_Designs/8058/i8058/src/ALU.v_i8058.v_i8058_IDec.v_i8058_TB.v=0*24304*32667
+
+[~MFT]
+0=6|0i8058.mgf|32667|0
+1=4|1i8058.mgf|37889|0
+3=4|3i8058.mgf|24113|0
+
+[~U]
+$root=12|0*0|
+P16C5x=12|0*4321||0x80
+P16C5x_ALU=12|0*182||0x80
+P16C5x_IDec=12|0*14007||0x80
+tb_i8058=12|0*19297||0x90
+

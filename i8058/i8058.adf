@@ -1,0 +1,77 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=i8058
+
+[Library]
+i8058=.\i8058.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=<none>
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+i8058=.
+Active_lib=
+
+[IMPLEMENTATION]
+UCF=
+
+[Groups]
+TestBench=1
+
+[Files]
+/ALU.v=-1
+/i8058.v=-1
+/i8058_IDec.v=-1
+/test.asdb=-1
+/wave.asdb=-1
+TestBench/i8058_TB.v=-1
+TestBench/i8058_TB_runtest.do=-1
+TestBench/i8058_TB_settings.txt=-1
+
+[Files.Data]
+.\src\ALU.v=Verilog Source Code
+.\src\i8058.v=Verilog Source Code
+.\src\i8058_IDec.v=Verilog Source Code
+.\src\test.asdb=Accelerated Waveform File
+.\src\wave.asdb=Accelerated Waveform File
+.\src\TestBench\i8058_TB.v=Verilog Source Code
+.\src\TestBench\i8058_TB_runtest.do=Macro
+.\src\TestBench\i8058_TB_settings.txt=Text File
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

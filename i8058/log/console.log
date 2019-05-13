@@ -1,0 +1,44 @@
+Design: Design i8058 already active.
+
+DESIGN: Default Design Language: VHDL
+DESIGN: Default BDE Language: VHDL
+DESIGN: C-Synthesis: Not Defined
+DESIGN: HDL Synthesis: Not Defined
+DESIGN: Physical Synthesis: Not Defined
+DESIGN: Implementation: Not Defined
+alog -O2 -sve  -work i8058 $dsn/src/ALU.v $dsn/src/i8058.v $dsn/src/i8058_IDec.v $dsn/src/TestBench/i8058_TB.v
+Warning: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+Compile...
+Pass 1. Scanning modules hierarchy.
+Info: VCP2876 ALU.v : (193, 1): Implicit net declaration, symbol C_In has not been declared in module P16C5x_ALU.
+Info: VCP2876 ALU.v : (194, 1): Implicit net declaration, symbol B_Inv has not been declared in module P16C5x_ALU.
+Info: VCP2876 ALU.v : (195, 1): Implicit net declaration, symbol B_Sel has not been declared in module P16C5x_ALU.
+Info: VCP2876 ALU.v : (196, 1): Implicit net declaration, symbol A_Sel has not been declared in module P16C5x_ALU.
+Info: VCP2876 ALU.v : (240, 1): Implicit net declaration, symbol Set has not been declared in module P16C5x_ALU.
+Info: VCP2876 ALU.v : (241, 1): Implicit net declaration, symbol Tst has not been declared in module P16C5x_ALU.
+Info: VCP2876 ALU.v : (292, 1): Implicit net declaration, symbol WE_W has not been declared in module P16C5x_ALU.
+Info: VCP2876 ALU.v : (304, 1): Implicit net declaration, symbol Z_Sel has not been declared in module P16C5x_ALU.
+Info: VCP2876 ALU.v : (318, 1): Implicit net declaration, symbol DC_Sel has not been declared in module P16C5x_ALU.
+Info: VCP2876 ALU.v : (331, 1): Implicit net declaration, symbol C_Sel has not been declared in module P16C5x_ALU.
+Info: VCP2876 ALU.v : (332, 1): Implicit net declaration, symbol S_Dir has not been declared in module P16C5x_ALU.
+Info: VCP2876 ALU.v : (333, 1): Implicit net declaration, symbol C_Drv has not been declared in module P16C5x_ALU.
+Info: VCP2876 i8058.v : (323, 1): Implicit net declaration, symbol LITERAL has not been declared in module P16C5x.
+Info: VCP2876 i8058.v : (327, 1): Implicit net declaration, symbol Tst has not been declared in module P16C5x.
+Info: VCP2876 i8058.v : (338, 1): Implicit net declaration, symbol INDF has not been declared in module P16C5x.
+Info: VCP2876 i8058.v : (345, 1): Implicit net declaration, symbol WE_F has not been declared in module P16C5x.
+Info: VCP2876 i8058.v : (385, 1): Implicit net declaration, symbol Ld_PCL has not been declared in module P16C5x.
+Info: VCP2876 i8058.v : (487, 1): Implicit net declaration, symbol WE_RAMA has not been declared in module P16C5x.
+Info: VCP2876 i8058.v : (501, 1): Implicit net declaration, symbol WE_RAMB has not been declared in module P16C5x.
+Info: VCP2876 i8058.v : (575, 1): Implicit net declaration, symbol WDT_Rst has not been declared in module P16C5x.
+Info: VCP2876 i8058.v : (630, 1): Implicit net declaration, symbol Tmr0_CS has not been declared in module P16C5x.
+Info: VCP2876 i8058.v : (636, 1): Implicit net declaration, symbol Rst_PSC has not been declared in module P16C5x.
+Info: VCP2876 i8058.v : (637, 1): Implicit net declaration, symbol CE_PSCntr has not been declared in module P16C5x.
+Info: VCP2876 i8058.v : (681, 1): Implicit net declaration, symbol CE_Tmr0 has not been declared in module P16C5x.
+Pass 2. Processing instantiations.
+Pass 3. Processing behavioral statements.
+Running Optimizer.
+ELB/DAG code generating.
+Unit top modules: tb_i8058.
+$root top modules: tb_i8058.
+Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+done

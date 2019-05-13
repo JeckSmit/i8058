@@ -1,0 +1,52 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+BEGINPROGRESS Compiling...
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol C_In has not been declared in module P16C5x_ALU." "c:/My_Designs/8058/i8058/src/ALU.v" 193 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol B_Inv has not been declared in module P16C5x_ALU." "c:/My_Designs/8058/i8058/src/ALU.v" 194 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol B_Sel has not been declared in module P16C5x_ALU." "c:/My_Designs/8058/i8058/src/ALU.v" 195 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol A_Sel has not been declared in module P16C5x_ALU." "c:/My_Designs/8058/i8058/src/ALU.v" 196 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Set has not been declared in module P16C5x_ALU." "c:/My_Designs/8058/i8058/src/ALU.v" 240 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Tst has not been declared in module P16C5x_ALU." "c:/My_Designs/8058/i8058/src/ALU.v" 241 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol WE_W has not been declared in module P16C5x_ALU." "c:/My_Designs/8058/i8058/src/ALU.v" 292 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Z_Sel has not been declared in module P16C5x_ALU." "c:/My_Designs/8058/i8058/src/ALU.v" 304 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol DC_Sel has not been declared in module P16C5x_ALU." "c:/My_Designs/8058/i8058/src/ALU.v" 318 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol C_Sel has not been declared in module P16C5x_ALU." "c:/My_Designs/8058/i8058/src/ALU.v" 331 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol S_Dir has not been declared in module P16C5x_ALU." "c:/My_Designs/8058/i8058/src/ALU.v" 332 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol C_Drv has not been declared in module P16C5x_ALU." "c:/My_Designs/8058/i8058/src/ALU.v" 333 1
+UPDATEPROGRESS 8
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol LITERAL has not been declared in module P16C5x." "c:/My_Designs/8058/i8058/src/i8058.v" 323 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Tst has not been declared in module P16C5x." "c:/My_Designs/8058/i8058/src/i8058.v" 327 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol INDF has not been declared in module P16C5x." "c:/My_Designs/8058/i8058/src/i8058.v" 338 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol WE_F has not been declared in module P16C5x." "c:/My_Designs/8058/i8058/src/i8058.v" 345 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Ld_PCL has not been declared in module P16C5x." "c:/My_Designs/8058/i8058/src/i8058.v" 385 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol WE_RAMA has not been declared in module P16C5x." "c:/My_Designs/8058/i8058/src/i8058.v" 487 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol WE_RAMB has not been declared in module P16C5x." "c:/My_Designs/8058/i8058/src/i8058.v" 501 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol WDT_Rst has not been declared in module P16C5x." "c:/My_Designs/8058/i8058/src/i8058.v" 575 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Tmr0_CS has not been declared in module P16C5x." "c:/My_Designs/8058/i8058/src/i8058.v" 630 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol Rst_PSC has not been declared in module P16C5x." "c:/My_Designs/8058/i8058/src/i8058.v" 636 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol CE_PSCntr has not been declared in module P16C5x." "c:/My_Designs/8058/i8058/src/i8058.v" 637 1
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol CE_Tmr0 has not been declared in module P16C5x." "c:/My_Designs/8058/i8058/src/i8058.v" 681 1
+UPDATEPROGRESS 17
+UPDATEPROGRESS 26
+UPDATEPROGRESS 35
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 45
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 49
+UPDATEPROGRESS 53
+UPDATEPROGRESS 58
+UPDATEPROGRESS 62
+UPDATEPROGRESS 66
+UPDATEPROGRESS 71
+UPDATEPROGRESS 80
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+UPDATEPROGRESS 84
+UPDATEPROGRESS 88
+UPDATEPROGRESS 92
+UPDATEPROGRESS 96
+UPDATEPROGRESS 100
+MESSAGE "Unit top modules: tb_i8058."
+MESSAGE "$root top modules: tb_i8058."
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 1[s]."
+MESSAGE "done"

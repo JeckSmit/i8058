@@ -1,0 +1,1 @@
+ -erf "c:\My_Designs\8058\i8058\compile\i8058.erf" -work i8058 -lc c:/My_Designs/8058/library.cfg -fl c:/My_Designs/8058/i8058/projlib.cfg -o c:/My_Designs/8058/i8058/compile -l "i8058" -sve   -O2
